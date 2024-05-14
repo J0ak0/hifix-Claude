@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HiFix - Asistencia Remota Informática</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+          <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+            <span class="fs-4">HI-FIX</span>
+          </a>
+    
+          <ul class="nav nav-pills">
+            <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+          </ul>
+        </header>
+      </div>
+    <!-- <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="logo-hifix.png" alt="HiFix" height="30">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sobre Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header> -->
+
+    <main>
+        <section class="hero py-5" style="background-image: url('images/fondo2.jpg'); background-size: cover; background-position: center;">
+            <div class="container text-center text-white">
+                <h1 class="display-4">Servicio Técnico de Computadoras Personales</h1>
+                <p class="lead">Reparación y mantenimiento - Alta Córdoba, Córdoba</p>
+                <div class="d-flex justify-content-center mb-4">
+                    <div class="px-3">
+                        <i class="fas fa-phone fa-2x"></i>
+                        <p class="mb-0">351-266 6540</p>
+                    </div>
+                    <div class="px-3">
+                        <i class="fas fa-envelope fa-2x"></i>
+                        <p class="mb-0">tecnicopc@yahoo.com</p>
+                    </div>
+                </div>
+                <p class="lead mb-0">NO SE VENDEN SOFTWARE, LICENCIAS, INSUMOS NI COMPONENTES HARDWARE</p>
+                <p class="mb-4">Servicio a domicilio sólo en algunas zonas de Alta Córdoba y para trabajos no posibles en taller</p>
+                <a href="#servicios" class="btn btn-outline-light btn-lg">Ver Servicios</a>
+                <div class="mt-4">
+                    <a href="#" class="me-3 text-white"><i class="fab fa-whatsapp fa-2x"></i></a>
+                    <a href="#" class="me-3 text-white"><i class="fab fa-instagram fa-2x"></i></a>
+                    <a href="#" class="text-white"><i class="fab fa-facebook fa-2x"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="servicios" class="servicios py-5 bg-light">
+            <div class="container">
+                <h2 class="text-center mb-4">Nuestros Servicios</h2>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="icono1.png" class="card-img-top" alt="Ícono PC">
+                            <div class="card-body">
+                                <h5 class="card-title">Reparación remota de PC y portátiles</h5>
+                                <p class="card-text">Solucionamos fallas de sistemas operativos, eliminamos virus, optimizamos rendimiento, etc.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Más servicios -->
+                </div>
+            </div>
+        </section>
+        <section class="costos-basicos py-5">
+            <div class="container">
+                <h2 class="text-center mb-4">Costos Básicos</h2>
+                <p class="text-center mb-4">* Precios de Servicios en Taller. Para PC o Portátiles con, al menos, procesador de doble núcleo posterior al año 2012, disco rígido en muy buen estado y 4GB de memoria RAM.</p>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">Instalación de sistema operativo básico</h5>
+                                <h3 class="text-primary">$16000</h3>
+                                <p class="card-text"><strong>PRECIO BASE INCAS</strong><br>Costo de servicio básico + actualizaciones generales.</p>
+                                <p class="card-text">NO Incluye: back-up de documentos ni drivers de impresora.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">Instalación de Sistema Operativo Optimizado</h5>
+                                <h3 class="text-primary">$19000</h3>
+                                <p class="card-text"><strong>PRECIO BASE INCAS</strong><br>Costo de servicio óptimo + actualizaciones generales.</p>
+                                <p class="card-text">NO Incluye: back-up de documentos ni drivers de impresora.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">Instalación completa de Sistema Operativo</h5>
+                                <h3 class="text-primary">$23000</h3>
+                                <p class="card-text"><strong>PRECIO BASE INCAS</strong><br>Sistema Operativo + Drivers de Drivers: Backups hasta 50 GB + Driver procesador + Configuración completa.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">Recuperación de PC que no inicia (pero enciende)</h5>
+                                <h3 class="text-primary">$15000</h3>
+                                <p class="card-text"><strong>PRECIO BASE INCAS</strong><br>Recuperación de archivos del mismo operativo. Control de estado de disco, RAM, Configuraciones.</p>
+                                <p class="card-text">Control de software instalado y análisis de rendimiento.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">Cambio+Clonado de disco en PC de Escritorio</h5>
+                                <h3 class="text-primary">$24000</h3>
+                                <p class="card-text"><strong>PRECIO BASE INCAS</strong><br>Para PC en correcto, No incluye componentes nuevos.</p>
+                                <p class="card-text">Cambio de HDD + SSD + clonado completo de disco. Sin instalaciones y sistema reinstalado.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">Cambio+Clonado de disco en Notebook</h5>
+                                <h3 class="text-primary">$27000</h3>
+                                <p class="card-text"><strong>PRECIO BASE INCAS</strong><br>Cambio de HDD + SSD + clonado completo de disco. (No incluye discos)</p>
+                                <p class="card-text">Se mantienen aplicaciones y el sistema intacto.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="precios py-5 bg-light">
+            <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+              <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sm">
+                  <div class="card-header py-3">
+                    <h4 class="my-0 fw-normal">Free</h4>
+                  </div>
+                  <div class="card-body">
+                    <h1 class="card-title pricing-card-title">$0<small class="text-body-secondary fw-light">/mo</small></h1>
+                    <ul class="list-unstyled mt-3 mb-4">
+                      <li>10 users included</li>
+                      <li>2 GB of storage</li>
+                      <li>Email support</li>
+                      <li>Help center access</li>
+                    </ul>
+                    <button type="button" class="w-100 btn btn-lg btn-outline-primary">Sign up for free</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sm">
+                  <div class="card-header py-3">
+                    <h4 class="my-0 fw-normal">Pro</h4>
+                  </div>
+                  <div class="card-body">
+                    <h1 class="card-title pricing-card-title">$15<small class="text-body-secondary fw-light">/mo</small></h1>
+                    <ul class="list-unstyled mt-3 mb-4">
+                      <li>20 users included</li>
+                      <li>10 GB of storage</li>
+                      <li>Priority email support</li>
+                      <li>Help center access</li>
+                    </ul>
+                    <button type="button" class="w-100 btn btn-lg btn-primary">Get started</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                  <div class="card-header py-3 text-bg-primary border-primary">
+                    <h4 class="my-0 fw-normal">Enterprise</h4>
+                  </div>
+                  <div class="card-body">
+                    <h1 class="card-title pricing-card-title">$29<small class="text-body-secondary fw-light">/mo</small></h1>
+                    <ul class="list-unstyled mt-3 mb-4">
+                      <li>30 users included</li>
+                      <li>15 GB of storage</li>
+                      <li>Phone and email support</li>
+                      <li>Help center access</li>
+                    </ul>
+                    <button type="button" class="w-100 btn btn-lg btn-primary">Contact us</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+        
+            <h2 class="display-6 text-center mb-4">Compare plans</h2>
+        
+            <div class="table-responsive">
+              <table class="table text-center">
+                <thead>
+                  <tr>
+                    <th style="width: 34%;"></th>
+                    <th style="width: 22%;">Free</th>
+                    <th style="width: 22%;">Pro</th>
+                    <th style="width: 22%;">Enterprise</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row" class="text-start">Public</th>
+                    <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+                    <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+                    <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+                  </tr>
+                  <tr>
+                    <th scope="row" class="text-start">Private</th>
+                    <td></td>
+                    <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+                    <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+                  </tr>
+                </tbody>
+        
+                <tbody>
+                  <tr>
+                    <th scope="row" class="text-start">Permissions</th>
+                    <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+                    <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+                    <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+                  </tr>
+                  <tr>
+                    <th scope="row" class="text-start">Sharing</th>
+                    <td></td>
+                    <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+                    <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+                  </tr>
+                  <tr>
+                    <th scope="row" class="text-start">Unlimited members</th>
+                    <td></td>
+                    <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+                    <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+                  </tr>
+                  <tr>
+                    <th scope="row" class="text-start">Extra security</th>
+                    <td></td>
+                    <td></td>
+                    <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+        <!-- Otras secciones... -->
+    </main>
+
+    <footer class="bg-primary text-white py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <nav>
+                        <ul class="list-unstyled d-flex mb-0">
+                            <li><a class="text-white me-3" href="#">Inicio</a></li>
+                            <li><a class="text-white me-3" href="#">Servicios</a></li>
+                            <li><a class="text-white me-3" href="#">Sobre Nosotros</a></li>
+                            <li><a class="text-white me-3" href="#">Contacto</a></li>
+                            <li><a class="text-white" href="#">Blog</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p class="mb-0">&copy; HiFix Asistencia Remota</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/yourcode.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>
